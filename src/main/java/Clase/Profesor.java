@@ -1,5 +1,7 @@
 package Clase;
 
+import java.util.Date;
+
 public class Profesor {
 	
 	private String nombre;
@@ -52,6 +54,12 @@ public class Profesor {
 				+ ", conocimiento=" + conocimiento + ", especialidad=" + especialidad + "]";
 	}
 	
-	
+	//Declaramos los metodos pero sin funcionalidad
+	public int calcularEdad(Date fechaActual) {
+		return 0;
+	}
+	public boolean esMayorDeEdad(int limiteEdad) {
+		return false;
+	}
 
 }
